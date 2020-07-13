@@ -1,0 +1,17 @@
+.btn {
+  display: block;
+  padding: 0.8rem 2rem;
+  border: 1px solid #333;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1rem;
+  font-family: 'Lato', sans-serif;
+  margin-top: 5px;
+
+  &--dark {
+    background: #333;
+    color: #fff;
+    margin-left: auto;
+  }
+}

@@ -4,35 +4,35 @@
   <h1>Contact Me</h1>
   <h2>Contact Form</h2>
 </div>
-<div class="form-wrap">
+<div class="contact-form">
   <form method="POST" name="contact">
     <input type="hidden" name="form-name" value="contact" />
-    <div class="text-fields">
+    <div class="contact-form__text-fields">
       <input
         type="text"
-        class="text-input name-input"
+        class="contact-form__text-input name-input"
         placeholder="Name"
         name="name"
       />
       <input
         type="text"
-        class="text-input subject-input"
+        class="contact-form__text-input subject-input"
         placeholder="Subject"
         name="subject"
       />
       <input
         type="email"
-        class="text-input email-input"
+        class="contact-form__text-input email-input"
         placeholder="Email Address"
         name="email"
       />
       <textarea
-        class="contact-message message-input"
+        class="contact-form__message-input message-input"
         placeholder="Enter Message"
         name="message"
       ></textarea>
     </div>
-    <button type="submit" class="btn-dark">
+    <button type="submit" class="btn btn--dark">
       Submit
     </button>
   </form>

@@ -1,0 +1,10 @@
+.container {
+  max-width: 750px;
+  margin: 0 0 80px 160px;
+  padding: 0 25px 25px;
+
+  @include atMedium {
+    margin: 0 auto;
+    padding: 0 25px 25px;
+  }
+}

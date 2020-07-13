@@ -1,0 +1,12 @@
+.portrait-media {
+  display: none;
+
+  @include atMedium {
+    display: block;
+    object-fit: cover;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin: auto;
+  }
+}

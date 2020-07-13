@@ -1,0 +1,31 @@
+.contact-form {
+  padding-right: 150px;
+
+  @include atMedium {
+    padding: 0;
+    margin: 0 50px;
+  }
+
+  @include atSmall {
+    margin: 0;
+  }
+
+  &__text-fields {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__text-input,
+  &__message-input {
+    padding: 0.5rem 1rem;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 1rem;
+    border: #777 1px solid;
+    border-radius: 5px;
+    width: 100%;
+  }
+
+  &__message-input {
+    height: 200px;
+  }
+}

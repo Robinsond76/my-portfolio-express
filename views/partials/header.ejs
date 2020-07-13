@@ -7,32 +7,24 @@
       href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Quicksand:wght@400;500&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/styles/style.css">
     <title>Rob Souza</title>
     
   </head>
   <body>
-    <nav>
+    <nav class='sidebar'>
         <% if(homepage) { %>
-          <img src='images/portrait.jpg' alt='Rob Souza' class='portrait' />
+          <img src='images/portrait.jpg' alt='Rob Souza' class='sidebar__portrait' />
         <% } else { %>
-          <div class='name'>Rob Souza</div>
+          <div class='sidebar__name'>Rob Souza</div>
         <% } %>
         
-      <div class='navbar'>
+      <div class='sidebar__menu'>
         <ul>
-          <li>
-            <a href='/'>Home</a>
-          </li>
-          <li>
-            <a href='/learning'>Learning</a>
-          </li>
-          <li>
-            <a href='/projects'>Projects</a>
-          </li>
-          <li>
-            <a href='/contact'>Contact</a>
-          </li>
+          <li><a href='/'>Home</a></li>
+          <li><a href='/learning'>Learning</a></li>
+          <li><a href='/projects'>Projects</a></li>
+          <li><a href='/contact'>Contact</a></li>
         </ul>
       </div>
     </nav>

@@ -1,3 +1,15 @@
 @import './base/_variables';
 @import './base/_mixins';
 @import './base/_global';
+
+//modules
+@import './modules/navbar';
+@import './modules/container';
+@import './modules/header';
+@import './modules/portrait-media';
+@import './modules/contact-form';
+@import './modules/btn';
+
+// sections css
+@import './modules/skills-section';
+@import './modules/projects-section';
