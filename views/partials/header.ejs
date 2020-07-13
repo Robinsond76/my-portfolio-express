@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Quicksand:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css">
+    <title>Rob Souza</title>
+    
+  </head>
+  <body>
+    <nav>
+        <% if(homepage) { %>
+          <img src='images/portrait.jpg' alt='Rob Souza' class='portrait' />
+        <% } else { %>
+          <div class='name'>Rob Souza</div>
+        <% } %>
+        
+      <div class='navbar'>
+        <ul>
+          <li>
+            <a href='/'>Home</a>
+          </li>
+          <li>
+            <a href='/learning'>Learning</a>
+          </li>
+          <li>
+            <a href='/projects'>Projects</a>
+          </li>
+          <li>
+            <a href='/contact'>Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+
+    <form name="contact" netlify hidden>
+      <input type="text" name="name" />
+      <input type="text" name="subject" />
+      <input type="email" name="email" />
+      <textarea name="message"></textarea>
+    </form>
+    
+    <div class='container'>
